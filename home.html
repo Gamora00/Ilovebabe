@@ -63,7 +63,7 @@ button{
 <body>
     <div class="container">
         <div class="data">
-            <img src="/date/img/kim-ngan-le-ginger-cat-01-banner.jpg" alt="" id="first-img">
+            <img src="/img/kim-ngan-le-ginger-cat-01-banner.jpg" alt="" id="first-img">
         <div class="label">
             <h2 id="label1">Can you be my</h2>
             <h1 id="label2">Valentine's?</h1>
@@ -85,7 +85,7 @@ const label = document.querySelector("#label2")
 const label1 = document.querySelector("#label1") 
 
 yes.addEventListener('click',()=>{
-    img.src = "/date/img/cat-kiss-cat.gif"
+    img.src = "/img/cat-kiss-cat.gif"
     label1.innerHTML = ""
     label.innerHTML = "I love you<3"
 })
@@ -94,7 +94,7 @@ yes.addEventListener('click',()=>{
 no.addEventListener('click',()=>{
     label1.innerHTML = "Can you be ny"
     label.innerHTML = "Valentine's?"
-    const imgRandom = ["/date/img/sad-cat-2.gif", "/date/img/cry-crying.gif", "/date/img/banana-cat-banana-cat-crying.gif", "/date/img/giphy.gif"]
+    const imgRandom = ["/img/sad-cat-2.gif", "/img/cry-crying.gif", "/img/banana-cat-banana-cat-crying.gif", "/img/giphy.gif"]
     
         const randomImg = Math.floor(Math.random() * 4)
         console.log(randomImg);
